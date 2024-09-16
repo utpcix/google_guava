@@ -1,0 +1,16 @@
+Add examples of
+
+- ImmutableSet
+- ImmutableSortedSet
+- ImmutableMap
+- ImmutableSortedMap
+- ImmutableMultiset
+- ImmutableSortedMultiSet
+- ImmutableMultimap
+- ImmutableListMultimap
+- ImmutableSetMultimap
+- ImmutableBiMap
+- ImmutableClassToInstanceMap
+- ImmutableTable
+
+PS: Add dto classes on the model package
