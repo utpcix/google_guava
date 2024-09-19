@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f13070c7-d085-430c-b1fa-df92ed1a3795" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/utp/collections/immutable/ImmutableCollectionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/utp/collections/immutable/ImmutableSetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/utp/collections/immutable/TODO.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/utp/collections/immutable/ImmutableSortedSetDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/utp/collections/immutable/TODO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/utp/collections/immutable/TODO.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,18 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "utpcix"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;utpcix&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/utpcix/google_guava.git",
-    "accountId": "83668fd3-863e-4edb-b335-8356fcf0ae54"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/utpcix/google_guava.git&quot;,
+    &quot;accountId&quot;: &quot;83668fd3-863e-4edb-b335-8356fcf0ae54&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -55,6 +51,7 @@
   "keyToString": {
     "Application.ImmutableCollectionDemo.executor": "Run",
     "Application.ImmutableSetDemo.executor": "Run",
+    "Application.ImmutableSortedSetDemo.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -68,7 +65,7 @@
       <recent name="C:\Users\fidiaz\IdeaProjects\google_guava\src\main\java\pe\edu\utp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ImmutableSetDemo">
+  <component name="RunManager" selected="Application.ImmutableSortedSetDemo">
     <configuration name="EscapeHTML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pe.edu.utp.html.EscapeHTML" />
       <module name="google_guava" />
@@ -121,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pe.edu.utp.collections.table.TableDemo" />
+    <configuration name="ImmutableSortedSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pe.edu.utp.collections.immutable.ImmutableSortedSetDemo" />
       <module name="google_guava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pe.edu.utp.collections.table.*" />
+          <option name="PATTERN" value="pe.edu.utp.collections.immutable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImmutableSortedSetDemo" />
         <item itemvalue="Application.ImmutableSetDemo" />
         <item itemvalue="Application.ImmutableCollectionDemo" />
         <item itemvalue="Application.HostAndPortDemo" />
         <item itemvalue="Application.EscapeHTML" />
-        <item itemvalue="Application.TableDemo" />
       </list>
     </recent_temporary>
   </component>
