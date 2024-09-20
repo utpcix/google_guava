@@ -1,7 +1,5 @@
 Add examples of
 
-- ImmutableMap
-- ImmutableSortedMap
 - ImmutableMultiset
 - ImmutableSortedMultiSet
 - ImmutableMultimap
