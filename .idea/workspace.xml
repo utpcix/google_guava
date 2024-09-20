@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f13070c7-d085-430c-b1fa-df92ed1a3795" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/utp/collections/immutable/ImmutableSortedSetDemo.java" afterDir="false" />
+    <list default="true" id="f13070c7-d085-430c-b1fa-df92ed1a3795" name="Changes" comment="ImmutableSortedSet Demo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/utp/collections/immutable/ImmutableMapDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/utp/collections/immutable/TODO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/utp/collections/immutable/TODO.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +29,12 @@
     &quot;assignee&quot;: &quot;utpcix&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/utpcix/google_guava.git&quot;,
-    &quot;accountId&quot;: &quot;83668fd3-863e-4edb-b335-8356fcf0ae54&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/utpcix/google_guava.git",
+    "accountId": "e8529fa3-b52c-4bf8-9957-1a51ef981e53"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -50,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ImmutableCollectionDemo.executor": "Run",
+    "Application.ImmutableMapDemo.executor": "Run",
     "Application.ImmutableSetDemo.executor": "Run",
     "Application.ImmutableSortedSetDemo.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -65,20 +65,7 @@
       <recent name="C:\Users\fidiaz\IdeaProjects\google_guava\src\main\java\pe\edu\utp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ImmutableSortedSetDemo">
-    <configuration name="EscapeHTML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pe.edu.utp.html.EscapeHTML" />
-      <module name="google_guava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pe.edu.utp.html.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ImmutableMapDemo">
     <configuration name="HostAndPortDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pe.edu.utp.net.HostAndPortDemo" />
       <module name="google_guava" />
@@ -94,6 +81,19 @@
     </configuration>
     <configuration name="ImmutableCollectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pe.edu.utp.collections.immutable.ImmutableCollectionDemo" />
+      <module name="google_guava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pe.edu.utp.collections.immutable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImmutableMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pe.edu.utp.collections.immutable.ImmutableMapDemo" />
       <module name="google_guava" />
       <extension name="coverage">
         <pattern>
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImmutableMapDemo" />
         <item itemvalue="Application.ImmutableSortedSetDemo" />
         <item itemvalue="Application.ImmutableSetDemo" />
         <item itemvalue="Application.ImmutableCollectionDemo" />
         <item itemvalue="Application.HostAndPortDemo" />
-        <item itemvalue="Application.EscapeHTML" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +150,19 @@
       <option name="presentableId" value="Default" />
       <updated>1726232426282</updated>
     </task>
+    <task id="LOCAL-00001" summary="ImmutableSortedSet Demo">
+      <option name="closed" value="true" />
+      <created>1726704287114</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726704287114</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ImmutableSortedSet Demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="ImmutableSortedSet Demo" />
   </component>
 </project>
