@@ -24,7 +24,7 @@ public class ImmutableSortedMapDemo {
         map.put("sw_b", s3); // PuTTY   (2nd)
         map.put("sw_a", s4); // MariaDB (1st)
 
-        // Create ImmutableSet
+        // Create ImmutableSortedMap
         ImmutableSortedMap<String,Software> software_map = ImmutableSortedMap.copyOf(map);
 
         // Get keys (ordered)

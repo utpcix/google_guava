@@ -24,7 +24,7 @@ public class ImmutableMapDemo {
         map.put("putty", s3);
         map.put("db", s4);
 
-        // Create ImmutableSet
+        // Create ImmutableMap
         ImmutableMap<String,Software> software_map = ImmutableMap.copyOf(map);
 
         System.out.println("software_map.get(\"sql\") = " + software_map.get("sql"));

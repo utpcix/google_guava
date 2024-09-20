@@ -17,7 +17,7 @@ public class ImmutableSortedSetDemo {
         Software s4 = new Software("MariaDB","10.5");
         List<Software> lista = new ArrayList<>(List.of(s1,s2,s3,s4));
 
-        // Create ImmutableSet
+        // Create ImmutableSortedSet
         // Important: Software Class implements Comparable interface !
         ImmutableSortedSet<Software> software_iss = ImmutableSortedSet.copyOf(lista);
 
