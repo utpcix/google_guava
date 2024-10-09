@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f13070c7-d085-430c-b1fa-df92ed1a3795" name="Changes" comment="ImmutableSortedMap Demo" />
+    <list default="true" id="f13070c7-d085-430c-b1fa-df92ed1a3795" name="Changes" comment="Fix example names">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/utp/collections/immutable/ImmutableMultisetDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +30,12 @@
     &quot;assignee&quot;: &quot;utpcix&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/utpcix/google_guava.git",
-    "accountId": "e8529fa3-b52c-4bf8-9957-1a51ef981e53"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/utpcix/google_guava.git&quot;,
+    &quot;accountId&quot;: &quot;e8529fa3-b52c-4bf8-9957-1a51ef981e53&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -47,9 +51,11 @@
   "keyToString": {
     "Application.ImmutableCollectionDemo.executor": "Run",
     "Application.ImmutableMapDemo.executor": "Run",
+    "Application.ImmutableMultisetDemo.executor": "Run",
     "Application.ImmutableSetDemo.executor": "Run",
     "Application.ImmutableSortedMapDemo.executor": "Run",
     "Application.ImmutableSortedSetDemo.executor": "Run",
+    "Application.JoinerText.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -63,20 +69,7 @@
       <recent name="C:\Users\fidiaz\IdeaProjects\google_guava\src\main\java\pe\edu\utp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ImmutableSortedMapDemo">
-    <configuration name="ImmutableCollectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pe.edu.utp.collections.immutable.ImmutableCollectionDemo" />
-      <module name="google_guava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pe.edu.utp.collections.immutable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ImmutableMultisetDemo">
     <configuration name="ImmutableMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pe.edu.utp.collections.immutable.ImmutableMapDemo" />
       <module name="google_guava" />
@@ -90,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImmutableSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pe.edu.utp.collections.immutable.ImmutableSetDemo" />
+    <configuration name="ImmutableMultisetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pe.edu.utp.collections.immutable.ImmutableMultisetDemo" />
       <module name="google_guava" />
       <extension name="coverage">
         <pattern>
@@ -129,13 +122,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JoinerText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pe.edu.utp.base.string_utilities.JoinerText" />
+      <module name="google_guava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pe.edu.utp.base.string_utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImmutableMultisetDemo" />
+        <item itemvalue="Application.JoinerText" />
         <item itemvalue="Application.ImmutableSortedMapDemo" />
         <item itemvalue="Application.ImmutableMapDemo" />
         <item itemvalue="Application.ImmutableSortedSetDemo" />
-        <item itemvalue="Application.ImmutableSetDemo" />
-        <item itemvalue="Application.ImmutableCollectionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -172,13 +178,22 @@
       <option name="project" value="LOCAL" />
       <updated>1726873143769</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix example names">
+      <option name="closed" value="true" />
+      <created>1726873266374</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726873266374</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ImmutableSortedSet Demo" />
     <MESSAGE value="ImmutableMap Demo" />
     <MESSAGE value="ImmutableSortedMap Demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="ImmutableSortedMap Demo" />
+    <MESSAGE value="Fix example names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix example names" />
   </component>
 </project>
