@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f13070c7-d085-430c-b1fa-df92ed1a3795" name="Changes" comment="Fix example names">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/utp/collections/immutable/ImmutableMultisetDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f13070c7-d085-430c-b1fa-df92ed1a3795" name="Changes" comment="ImmutableMultiset example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/utp/collections/immutable/ImmutableSortedMultiSetDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +53,7 @@
     "Application.ImmutableMultisetDemo.executor": "Run",
     "Application.ImmutableSetDemo.executor": "Run",
     "Application.ImmutableSortedMapDemo.executor": "Run",
+    "Application.ImmutableSortedMultiSetDemo.executor": "Run",
     "Application.ImmutableSortedSetDemo.executor": "Run",
     "Application.JoinerText.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -69,7 +69,7 @@
       <recent name="C:\Users\fidiaz\IdeaProjects\google_guava\src\main\java\pe\edu\utp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ImmutableMultisetDemo">
+  <component name="RunManager" selected="Application.ImmutableSortedMultiSetDemo">
     <configuration name="ImmutableMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pe.edu.utp.collections.immutable.ImmutableMapDemo" />
       <module name="google_guava" />
@@ -109,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImmutableSortedSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pe.edu.utp.collections.immutable.ImmutableSortedSetDemo" />
+    <configuration name="ImmutableSortedMultiSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pe.edu.utp.collections.immutable.ImmutableSortedMultiSetDemo" />
       <module name="google_guava" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImmutableSortedMultiSetDemo" />
         <item itemvalue="Application.ImmutableMultisetDemo" />
         <item itemvalue="Application.JoinerText" />
         <item itemvalue="Application.ImmutableSortedMapDemo" />
         <item itemvalue="Application.ImmutableMapDemo" />
-        <item itemvalue="Application.ImmutableSortedSetDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726873266374</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ImmutableMultiset example">
+      <option name="closed" value="true" />
+      <created>1728504742525</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728504742525</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -194,6 +202,7 @@
     <MESSAGE value="ImmutableMap Demo" />
     <MESSAGE value="ImmutableSortedMap Demo" />
     <MESSAGE value="Fix example names" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix example names" />
+    <MESSAGE value="ImmutableMultiset example" />
+    <option name="LAST_COMMIT_MESSAGE" value="ImmutableMultiset example" />
   </component>
 </project>
